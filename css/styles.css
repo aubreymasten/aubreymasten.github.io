@@ -1,0 +1,61 @@
+:root {
+  --red: #ec5252;
+  --orange: #f46f28;
+  --yellow: #feb82a;
+  --green: #3cc573;
+  --blue: #41c8f5;
+  --violet: #c55da9;
+}
+
+body {
+  background-color: white;
+}
+body>p {
+  padding-left: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-family: -apple-system, 'avenir next', avenir, roboto, noto, ubuntu, 'helvetica neue', helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  letter-spacing:1.1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#name {
+  color: rgba(0,0,0,0.3);
+}
+
+#js {
+  color: var(--blue);
+}
+
+#ruby {
+  color: var(--red);
+}
+
+#framework {
+  color: var(--violet);
+}
+
+#tool {
+  color: var(--yellow);
+}
+
+#project {
+  color: var(--green);
+}
+
+#dev {
+  color: var(--orange);
+}
