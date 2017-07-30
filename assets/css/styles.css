@@ -22,7 +22,7 @@ p {
   font-family: -apple-system, 'avenir next', avenir, roboto, noto, ubuntu, 'helvetica neue', helvetica, arial, sans-serif;
   font-weight: 700;
   font-size: 3em;
-  letter-spacing:1.1px;
+  letter-spacing: 1.1px;
   text-transform: uppercase;
   margin-bottom: 0;
   color: black;
@@ -30,6 +30,35 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.js {
+  color: var(--blue);
+}
+
+.ruby {
+  color: var(--red);
+}
+
+.framework {
+  color: var(--violet);
+}
+
+.tool {
+  color: var(--yellow);
+}
+
+.project {
+  color: var(--green);
+}
+
+.dev {
+  color: var(--orange);
+}
+
+.collaborator {
+  color: #fff;
+  animation: pulsate 10s linear infinite alternate;
 }
 
 #name {
@@ -42,42 +71,7 @@ a {
 }
 
 #contact * {
-color: white;
-}
-
-.js {
-  color: var(--blue);
-  /*color: #41c8f5;*/
-}
-
-.ruby {
-  color: var(--red);
-  /*color: #ec5252;*/
-}
-
-.framework {
-  color: var(--violet);
-  /*color: #c55da9;*/
-}
-
-.tool {
-  color: var(--yellow);
-  /*color: #feb82a;*/
-}
-
-.project {
-  color: var(--green);
-  /*color: #3cc573;*/
-}
-
-.dev {
-  color: var(--orange);
-  /*color: #f46f28;*/
-}
-
-.collaborator {
-  color: #fff;
-  animation: pulsate 10s linear infinite alternate;
+  color: white;
 }
 
 @keyframes pulsate {
