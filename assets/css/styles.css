@@ -10,7 +10,7 @@
 body {
   background-color: white;
 }
-body>p {
+body > p {
   padding-left: 40px;
 }
 
@@ -47,26 +47,32 @@ color: white;
 
 .js {
   color: var(--blue);
+  /*color: #41c8f5;*/
 }
 
 .ruby {
   color: var(--red);
+  /*color: #ec5252;*/
 }
 
 .framework {
   color: var(--violet);
+  /*color: #c55da9;*/
 }
 
 .tool {
   color: var(--yellow);
+  /*color: #feb82a;*/
 }
 
 .project {
   color: var(--green);
+  /*color: #3cc573;*/
 }
 
 .dev {
   color: var(--orange);
+  /*color: #f46f28;*/
 }
 
 .collaborator {
