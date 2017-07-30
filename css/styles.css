@@ -36,26 +36,50 @@ a {
   color: rgba(0,0,0,0.3);
 }
 
-#js {
+#contact {
+  color: white;
+  background-color: black;
+}
+
+#contact * {
+color: white;
+}
+
+.js {
   color: var(--blue);
 }
 
-#ruby {
+.ruby {
   color: var(--red);
 }
 
-#framework {
+.framework {
   color: var(--violet);
 }
 
-#tool {
+.tool {
   color: var(--yellow);
 }
 
-#project {
+.project {
   color: var(--green);
 }
 
-#dev {
+.dev {
   color: var(--orange);
+}
+
+.collaborator {
+  color: #fff;
+  animation: pulsate 10s linear infinite alternate;
+}
+
+@keyframes pulsate {
+  0% { color: var(--red); }
+  20% { color: var(--orange);  }
+  40% { color: var(--yellow); }
+  60% { color: var(--green); }
+  80% { color: var(--blue); }
+  100% { color: var(--violet); }
+
 }
